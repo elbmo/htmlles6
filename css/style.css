@@ -1,0 +1,12 @@
+.blue {
+    background-color: blue;
+    width: 250px;
+    height: 550px;
+    padding: 100px;
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 500px;
+}

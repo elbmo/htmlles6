@@ -3,10 +3,37 @@
     width: 250px;
     height: 550px;
     padding: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .red {
     background-color: red;
     width: 200px;
     height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.li {
+    position: sticky;
+    top: 0;
+    list-style-position: outside;
+}
+
+h2{
+position: sticky;
+top: 0;
+background-color: green;
+}
+
+*{
+    font-size: 60px;
+    box-sizing: border-box;
+}
+
+article{
+    margin-left: 250px;
 }
